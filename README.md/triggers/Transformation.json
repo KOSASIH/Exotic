@@ -1,6 +1,6 @@
 {
     "id": "639d95a4af03da8f8387fa5c",
-    "name": "Transform",
+    "name": "Transformation",
     "type": "DATABASE",
     "config": {
         "operation_types": [
