@@ -3,6 +3,13 @@
     "type": "mongodb-atlas",
     "config": {
         "clusterName": "Anexotica",
+        "namespacePreimageConfigs": [
+            {
+                "collectionName": "Job",
+                "dbName": "Model",
+                "recordPreimages": true
+            }
+        ],
         "readPreference": "primary",
         "wireProtocolEnabled": false
     },
