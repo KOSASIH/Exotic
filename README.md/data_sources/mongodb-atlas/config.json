@@ -5,8 +5,8 @@
         "clusterName": "Anexotica",
         "namespacePreimageConfigs": [
             {
-                "collectionName": "Train Collection",
-                "dbName": "TrainDb",
+                "collectionName": "Build Collection",
+                "dbName": "BuildDb",
                 "recordPreimages": true
             }
         ],
