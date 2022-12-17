@@ -40,5 +40,10 @@
         "name": "Code_Creator",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "Translator",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
