@@ -1,0 +1,26 @@
+{
+    "id": "639d9cdf17b5cfae85609a8c",
+    "name": "Create",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "anon-user",
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "local-userpass",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Editor"
+            }
+        }
+    }
+}
