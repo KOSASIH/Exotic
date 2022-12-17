@@ -5,8 +5,8 @@
         "clusterName": "Anexotica",
         "namespacePreimageConfigs": [
             {
-                "collectionName": "Job",
-                "dbName": "Model",
+                "collectionName": "Diffusion Collection",
+                "dbName": "DiffusionDb",
                 "recordPreimages": true
             }
         ],
