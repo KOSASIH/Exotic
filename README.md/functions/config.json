@@ -20,5 +20,10 @@
         "name": "Builder",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "Importer",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
