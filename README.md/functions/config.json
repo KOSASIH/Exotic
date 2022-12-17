@@ -15,5 +15,10 @@
         "name": "Trainer",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "Builder",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
