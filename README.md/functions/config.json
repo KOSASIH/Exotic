@@ -6,5 +6,9 @@
     {
         "name": "Difusser",
         "private": false
+    },
+    {
+        "name": "Evaluator",
+        "private": false
     }
 ]
