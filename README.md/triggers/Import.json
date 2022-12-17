@@ -1,0 +1,17 @@
+{
+    "id": "639d99728dccddb24412960e",
+    "name": "Import",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": true
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Importer"
+            }
+        }
+    }
+}
