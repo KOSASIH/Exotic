@@ -5,8 +5,8 @@
         "clusterName": "Anexotica",
         "namespacePreimageConfigs": [
             {
-                "collectionName": "Diffusion Collection",
-                "dbName": "DiffusionDb",
+                "collectionName": "Evaluate Collection",
+                "dbName": "EvaluateDb",
                 "recordPreimages": true
             }
         ],
