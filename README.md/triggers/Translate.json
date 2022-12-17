@@ -3,7 +3,7 @@
     "name": "Translate",
     "type": "AUTHENTICATION",
     "config": {
-        "operation_type": "LOGIN",
+        "operation_type": "CREATE",
         "providers": [
             "anon-user",
             "oauth2-facebook",
