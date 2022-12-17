@@ -30,5 +30,10 @@
         "name": "Exporter",
         "private": false,
         "disable_arg_logs": true
+    },
+    {
+        "name": "Editor",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
