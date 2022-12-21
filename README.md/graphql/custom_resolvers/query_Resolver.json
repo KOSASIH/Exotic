@@ -1,9 +1,0 @@
-{
-    "field_name": "Resolver",
-    "function_name": "Code_Creator",
-    "input_type": "long",
-    "input_type_format": "scalar-list",
-    "on_type": "Query",
-    "payload_type": "Comment",
-    "payload_type_format": "generated-list"
-}
