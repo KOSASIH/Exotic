@@ -1,0 +1,9 @@
+{
+    "app_id": "exotic-jnlbd",
+    "config_version": 20210101,
+    "name": "Exotic",
+    "location": "SG",
+    "provider_region": "aws-ap-southeast-1",
+    "deployment_model": "LOCAL",
+    "environment": "production"
+}

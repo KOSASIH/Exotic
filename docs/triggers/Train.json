@@ -1,0 +1,31 @@
+{
+    "id": "639d981a8dccddb244125998",
+    "name": "Train",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "INSERT",
+            "UPDATE",
+            "DELETE",
+            "REPLACE"
+        ],
+        "database": "TrainDb",
+        "collection": "Train Collection",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": true,
+        "unordered": false,
+        "skip_catchup_events": true,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Trainer"
+            }
+        }
+    }
+}
