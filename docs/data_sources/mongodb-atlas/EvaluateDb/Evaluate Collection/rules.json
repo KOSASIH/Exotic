@@ -1,0 +1,15 @@
+{
+    "collection": "Evaluate Collection",
+    "database": "EvaluateDb",
+    "roles": [
+        {
+            "name": "readAll",
+            "apply_when": {},
+            "read": true,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": true
+        }
+    ]
+}

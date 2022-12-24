@@ -14,6 +14,15 @@
         "disable_arg_logs": true
     },
     {
+        "name": "Difusser",
+        "private": false
+    },
+    {
+        "name": "Exporter",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
         "name": "Editor",
         "private": false,
         "disable_arg_logs": true
@@ -24,30 +33,21 @@
         "disable_arg_logs": true
     },
     {
+        "name": "Transformer",
+        "private": false
+    },
+    {
+        "name": "Translator",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
         "name": "Trainer",
         "private": false,
         "disable_arg_logs": true
     },
     {
         "name": "Builder",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "Difusser",
-        "private": false
-    },
-    {
-        "name": "Exporter",
-        "private": false,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "Transformer",
-        "private": false
-    },
-    {
-        "name": "Translator",
         "private": false,
         "disable_arg_logs": true
     }
