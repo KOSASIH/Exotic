@@ -62,5 +62,9 @@
     {
         "name": "Device_Connector",
         "private": false
+    },
+    {
+        "name": "Data_Collector",
+        "private": false
     }
 ]

@@ -1,0 +1,17 @@
+{
+    "id": "63b2652a006af1f607c10833",
+    "name": "Collect",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Data_Collector"
+            }
+        }
+    }
+}
