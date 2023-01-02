@@ -90,5 +90,9 @@
     {
         "name": "Modiffier",
         "private": false
+    },
+    {
+        "name": "Publisher",
+        "private": false
     }
 ]
