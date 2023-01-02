@@ -1,0 +1,25 @@
+{
+    "id": "63b26de7006af1f607c28b68",
+    "name": "Integrate",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "LOGIN",
+        "providers": [
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "local-userpass",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Integrator"
+            }
+        }
+    }
+}
