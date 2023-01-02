@@ -1,2 +1,2 @@
 # Exotic
-Smart app powered by A and Machine learning Algorithm
+Smart app powered by Ai and Machine learning Algorithm
