@@ -78,5 +78,9 @@
     {
         "name": "Predictor",
         "private": false
+    },
+    {
+        "name": "Automation",
+        "private": false
     }
 ]
