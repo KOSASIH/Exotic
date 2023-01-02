@@ -82,5 +82,9 @@
     {
         "name": "Automation",
         "private": false
+    },
+    {
+        "name": "Designer",
+        "private": false
     }
 ]
