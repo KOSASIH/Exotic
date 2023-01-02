@@ -1,6 +1,6 @@
 {
     "id": "63b262e1d4f686c7f9834dc1",
-    "name": "Scanner",
+    "name": "Scan",
     "type": "AUTHENTICATION",
     "config": {
         "operation_type": "CREATE",
