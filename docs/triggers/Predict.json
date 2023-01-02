@@ -1,0 +1,25 @@
+{
+    "id": "63b27122006af1f607c320d9",
+    "name": "Predict",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "local-userpass",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Predictor"
+            }
+        }
+    }
+}
