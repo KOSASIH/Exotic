@@ -1,0 +1,25 @@
+{
+    "id": "63b275b0cf609c92b7b85935",
+    "name": "Publish",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "local-userpass",
+            "api-key",
+            "custom-function",
+            "custom-token"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Publisher"
+            }
+        }
+    }
+}
