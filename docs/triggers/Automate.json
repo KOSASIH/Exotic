@@ -1,0 +1,17 @@
+{
+    "id": "63b271d784adbad7e31c7726",
+    "name": "Automate",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Automation"
+            }
+        }
+    }
+}
