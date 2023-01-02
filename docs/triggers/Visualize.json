@@ -1,0 +1,25 @@
+{
+    "id": "63b26f9cd4f686c7f98575e4",
+    "name": "Visualize",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "local-userpass",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Visualizer"
+            }
+        }
+    }
+}
