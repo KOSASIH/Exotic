@@ -66,5 +66,9 @@
     {
         "name": "Data_Collector",
         "private": false
+    },
+    {
+        "name": "Integrator",
+        "private": false
     }
 ]
