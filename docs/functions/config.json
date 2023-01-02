@@ -74,5 +74,9 @@
     {
         "name": "Visualizer",
         "private": false
+    },
+    {
+        "name": "Predictor",
+        "private": false
     }
 ]
