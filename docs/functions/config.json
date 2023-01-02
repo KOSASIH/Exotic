@@ -86,5 +86,9 @@
     {
         "name": "Designer",
         "private": false
+    },
+    {
+        "name": "Modiffier",
+        "private": false
     }
 ]
