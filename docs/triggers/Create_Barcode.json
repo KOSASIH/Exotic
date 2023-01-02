@@ -1,0 +1,25 @@
+{
+    "id": "63b261a8006af1f607c074e3",
+    "name": "Create_Barcode",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "local-userpass",
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "barcode_generator"
+            }
+        }
+    }
+}
