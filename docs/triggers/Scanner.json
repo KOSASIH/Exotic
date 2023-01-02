@@ -1,0 +1,25 @@
+{
+    "id": "63b262e1d4f686c7f9834dc1",
+    "name": "Scanner",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "CREATE",
+        "providers": [
+            "oauth2-facebook",
+            "oauth2-google",
+            "oauth2-apple",
+            "api-key",
+            "local-userpass",
+            "custom-token",
+            "custom-function"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Barcode_Scanner"
+            }
+        }
+    }
+}
