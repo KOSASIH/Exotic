@@ -1,0 +1,17 @@
+{
+    "id": "63b7cc8ad4f686c7f98fac59",
+    "name": "Generate_Code",
+    "type": "SCHEDULED",
+    "config": {
+        "schedule": "*/1 * * * *",
+        "skip_catchup_events": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Code_Generator"
+            }
+        }
+    }
+}
